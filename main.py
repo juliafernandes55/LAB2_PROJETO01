@@ -1,4 +1,6 @@
 print("Hello World")
 
+
 def cumprimento ():
-    print ("Ola, bem-vindo ao projeto!)")
+    nome= input ("Digite seu nome:")    
+    print(f'OLa, Julia FErnandes!Bem-vindo ao projeto!')
