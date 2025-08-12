@@ -6,7 +6,7 @@ def cumprimento (texto):
     return f"Ola, {texto}"
 
 def media_7_numeros():
-    nums = [random.randint(1,100) for_in range(7)]
+    nums = [random.randint(1,100) for _ in range(7)]
     media = sum(nums) / len (nums)
     return nums, media
 
